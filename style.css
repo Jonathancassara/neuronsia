@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'neuropol';
+    src: url('neuropol-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('neuropol-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('neuropol.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("bg.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-focus-in {font-family: 'neuropol', Fallback, sans-serif;
+    font-size: 5em;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            
+}
+h4{
+    font-size: 1.5em;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+  left: 0;
+  top: 64%;
+  width: 100%;
+  text-align: center;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  
+
+}
